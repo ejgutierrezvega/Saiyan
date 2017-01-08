@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "Saiyan.Components Class Library",
+  "authors": [ "Aime" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "net451": { }
+  },
+  "dependencies": {
+    "Saiyan.Domain": "1.0.0-*",
+    "Saiyan.Mapper": "1.0.0-*",
+    "Saiyan.Repository": "1.0.0-*"
+  }
+}

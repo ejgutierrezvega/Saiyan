@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Api", "Saiyan.Api\Saiyan.Api.xproj", "{717D9ED7-E7F1-439D-AA7E-0513FBEE06AD}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Repository", "Saiyan.Repository\Saiyan.Repository.xproj", "{6BE7F1E5-0C47-4E09-9ADE-01CEE7EEBF0C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Domain", "Saiyan.Domain\Saiyan.Domain.xproj", "{669999BB-308F-4D8C-8E0F-A5C7E634C373}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Mapper", "Saiyan.Mapper\Saiyan.Mapper.xproj", "{AC3DEEB4-B708-46B2-A651-DB7D5FD6FB5C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Components", "Saiyan.Components\Saiyan.Components.xproj", "{2D1E5161-1AB6-4A51-A388-2998D016364C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Saiyan.Pluralization", "Saiyan.Pluralization\Saiyan.Pluralization.xproj", "{513FB9AD-4E73-4FF2-87FA-1D860D337FA0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{717D9ED7-E7F1-439D-AA7E-0513FBEE06AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717D9ED7-E7F1-439D-AA7E-0513FBEE06AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717D9ED7-E7F1-439D-AA7E-0513FBEE06AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717D9ED7-E7F1-439D-AA7E-0513FBEE06AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BE7F1E5-0C47-4E09-9ADE-01CEE7EEBF0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BE7F1E5-0C47-4E09-9ADE-01CEE7EEBF0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BE7F1E5-0C47-4E09-9ADE-01CEE7EEBF0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BE7F1E5-0C47-4E09-9ADE-01CEE7EEBF0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669999BB-308F-4D8C-8E0F-A5C7E634C373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669999BB-308F-4D8C-8E0F-A5C7E634C373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669999BB-308F-4D8C-8E0F-A5C7E634C373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669999BB-308F-4D8C-8E0F-A5C7E634C373}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3DEEB4-B708-46B2-A651-DB7D5FD6FB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3DEEB4-B708-46B2-A651-DB7D5FD6FB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3DEEB4-B708-46B2-A651-DB7D5FD6FB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3DEEB4-B708-46B2-A651-DB7D5FD6FB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1E5161-1AB6-4A51-A388-2998D016364C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1E5161-1AB6-4A51-A388-2998D016364C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1E5161-1AB6-4A51-A388-2998D016364C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1E5161-1AB6-4A51-A388-2998D016364C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{513FB9AD-4E73-4FF2-87FA-1D860D337FA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{513FB9AD-4E73-4FF2-87FA-1D860D337FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{513FB9AD-4E73-4FF2-87FA-1D860D337FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{513FB9AD-4E73-4FF2-87FA-1D860D337FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

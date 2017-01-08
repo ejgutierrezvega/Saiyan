@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "Saiyan.Repository Class Library",
+  "authors": [ "Goku" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+  "frameworks": {
+    "net451": {
+      "dependencies": {
+        "mongocsharpdriver": "2.4.1"
+      }
+    }
+  },
+  "dependencies": {
+    "LinqKit": "1.1.8",
+    "Saiyan.Domain": "1.0.0-*",
+    "Saiyan.Pluralization": "1.0.0-*"
+  }
+}
